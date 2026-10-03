@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root { color-scheme: dark; }
+body { margin: 0; background: #0b0e13; color: #f1f4f8; font-family: Arial, Helvetica, sans-serif; }
+button { cursor: pointer; transition: background 150ms; }
+button:disabled { cursor: not-allowed; opacity: .4; }
+button:focus-visible { outline: 2px solid #9bf1cd; outline-offset: 4px; }
+.panel { border: 1px solid #272d36; background: #12171f; border-radius: 20px; }
+.button { padding: 12px 18px; border-radius: 10px; font-size: 14px; font-weight: 600; background: #252d39; }
+.button:hover:enabled { background: #344053; }
+.primary { background: #a0f0ce; color: #0c2920; }
+.primary:hover:enabled { background: #c0ffe4; }
